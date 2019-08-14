@@ -76,7 +76,7 @@ elif b == 0 and c != 0:
 try:
     if c == 0 and b != 0:
         x = -b / a
-        print ("X: 0 или X:", x)
+        print ("X: 0 or X:", x)
         sys.exit ()
     elif c == 0 and b == 0:
         print ("Discriminant cannot be found, because c = 0 и b = 0")
