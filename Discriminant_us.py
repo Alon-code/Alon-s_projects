@@ -76,19 +76,19 @@ elif b == 0 and c != 0:
 try:
     if c == 0 and b != 0:
         x = -b / a
-        print ("X: 0 or X:", x)
+        print ("As a result: X = 0 or X =", x)
         sys.exit ()
     elif c == 0 and b == 0:
-        print ("Discriminant cannot be found, because c = 0 и b = 0")
+        print ("As a result: dscriminant cannot be found, because c = 0 и b = 0")
         sys.exit ()
     elif d == 0:
         x = -b / 2 * a
-        print ("X:", x)
+        print ("As a result: X =", x)
         print ("End of program")
     elif d > 0:
         x1 = (-b + math.sqrt (d)) / 2 * a
         x2 = (-b - math.sqrt (d)) / 2 * a
-        print ("X1: {0}, X2: {1}".format (x1, x2))
+        print ("As a result: X1 = {0}, X2 = {1}".format (x1, x2))
         print ("End of program")
     elif d < 0:
         print ("As a result: no roots")
