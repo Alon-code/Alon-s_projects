@@ -79,7 +79,7 @@ try:
         print ("As a result: X = 0 or X =", x)
         sys.exit ()
     elif c == 0 and b == 0:
-        print ("As a result: dscriminant cannot be found, because c = 0 и b = 0")
+        print ("As a result: discriminant cannot be found, because c = 0 и b = 0")
         sys.exit ()
     elif d == 0:
         x = -b / 2 * a
