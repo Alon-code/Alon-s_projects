@@ -31,7 +31,7 @@ while True:
     except EOFError:
         print ("\nВы нажали сочетание клавиш 'Ctrl+D'")
     except ValueError:
-        print ("Вы нажали клавишу 'Enter'")
+        print ("Введите число")
     except KeyboardInterrupt:
         print ("\nВы нажали сочетание клавиш 'Ctrl+C'")
 
@@ -44,7 +44,7 @@ while True:
     except EOFError:
         print ("\nВы нажали сочетание клавиш 'Ctrl+D'")
     except ValueError:
-        print ("Вы нажали клавишу 'Enter'")
+        print ("Введите число")
     except KeyboardInterrupt:
         print ("\nВы нажали сочетание клавиш 'Ctrl+C'")
 
@@ -57,7 +57,7 @@ while True:
     except EOFError:
         print ("\nВы нажали сочетание клавиш 'Ctrl+D'")
     except ValueError:
-        print ("Вы нажали клавишу 'Enter'")
+        print ("Введите число")
     except KeyboardInterrupt:
         print ("\nВы нажали сочетание клавиш 'Ctrl+C'")
 
