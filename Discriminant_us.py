@@ -31,7 +31,7 @@ while True:
     except EOFError:
         print ("\nYou pressed keyboard shortcut 'Ctrl+D'")
     except ValueError:
-        print ("You pressed 'Enter'")
+        print ("Write number")
     except KeyboardInterrupt:
         print ("\nYou pressed keyboard shortcut 'Ctrl+C'")
 
@@ -44,7 +44,7 @@ while True:
     except EOFError:
         print ("\nYou pressed keyboard shortcut 'Ctrl+D'")
     except ValueError:
-        print ("You pressed 'Enter'")
+        print ("Write number")
     except KeyboardInterrupt:
         print ("\nYou pressed keyboard shortcut 'Ctrl+C'")
 
@@ -57,7 +57,7 @@ while True:
     except EOFError:
         print ("\nYou pressed keyboard shortcut 'Ctrl+D'")
     except ValueError:
-        print ("You pressed 'Enter'")
+        print ("Write number")
     except KeyboardInterrupt:
         print ("\nYou pressed keyboard shortcut 'Ctrl+C'")
 
