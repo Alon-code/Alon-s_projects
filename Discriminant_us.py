@@ -17,7 +17,7 @@ print ("1) a * x * x ± b * x ± c = 0")
 print ("2) a * x * x ± b = 0")
 print ("3) a * x * x ± c = 0\n")
 
-# Writing var a
+# Write var a
 while True:
     try:
         while True:
@@ -35,7 +35,7 @@ while True:
     except KeyboardInterrupt:
         print ("\nYou pressed keyboard shortcut 'Ctrl+C'")
 
-# Writing var b
+# Write var b
 while True:
     try:
         b = float (input ("Write b: "))
